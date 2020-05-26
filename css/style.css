@@ -1,25 +1,45 @@
-/* DEBUG */
-* {
-  border: 0.5px solid black;
-  font-size: 30px;
-}
+/* General rules */
 .green {
   background-color: #1abc9c;
 }
-
-header {
-}
-
-header .container-fluid:nth-of-type(1) {
+/* header  |Navbar*/
+header .navbar  {
   background-color: #2c3e50;
+  padding: 0 5%;
+  border: none;
+  border-radius: 0px;
 }
 
-main section {
+header .container img {
+  width: 20rem;
 }
 
-footer .container-fluid:nth-of-type(1) {
+/* Main */
+
+/* Section Portfolio */
+
+main section:nth-of-type(1) img {
+  width: 100%;
+  margin-bottom: 5%;
+  border-radius: 10px;
+}
+
+.form-group .form-control {
+  text-decoration: trasparent;
+  border: transparent;
+  border-radius: 0px;
+  border-bottom: 0.5px solid gray;
+  box-shadow: none;
+}
+
+
+/* Footer */
+
+footer {
   background-color: #2c3e50;
+  color: white;
 }
-footer > .container-fluid:nth-of-type(2) {
-  background-color: #3a546d;
+
+footer .row:last-of-type [class*="col-"]:last-of-type {
+  background-color: #1A252F;
 }
