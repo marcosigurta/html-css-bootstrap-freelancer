@@ -1,27 +1,25 @@
 /* DEBUG */
-
+* {
+  border: 0.5px solid black;
+  font-size: 30px;
+}
 .green {
   background-color: #1abc9c;
 }
 
 header {
-  height: 500px;
 }
 
 header .container-fluid:nth-of-type(1) {
   background-color: #2c3e50;
-  height: 100px;
 }
 
 main section {
-  height: 400px;
 }
 
 footer .container-fluid:nth-of-type(1) {
   background-color: #2c3e50;
-  height: 200px;
 }
 footer > .container-fluid:nth-of-type(2) {
   background-color: #3a546d;
-  height: 50px;
 }
