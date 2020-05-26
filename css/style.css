@@ -10,7 +10,7 @@
 /* Body Padding for Fixed Nav */
 
 body {
-  padding-top: 70px;
+  padding-top: 60px;
 }
 
 /* Text size&weight */
@@ -225,4 +225,74 @@ header .container img {
 
 #green {
   color: #159a80;
+}
+
+@media (max-width: 575.98px) {
+  h1 {
+    font-size: 40px;
+  }
+
+  h2 {
+    font-size: 25px;
+  }
+
+  h3 {
+    font-size: 25px;
+  }
+
+  p {
+    font-size: 18px;
+  }
+
+  header .navbar-default .navbar-header .navbar-toggle {
+    font-size: 10px;
+  }
+
+  header .navbar-default .navbar-header .navbar-brand {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  h1 {
+    font-size: 60px;
+  }
+
+  h2 {
+    font-size: 40px;
+  }
+
+  h3 {
+    font-size: 25px;
+  }
+
+  p {
+    font-size: 18px;
+  }
+
+  header .navbar-default .navbar-nav {
+    margin-right: 20px;
+  }
+
+  header .navbar-default .navbar-nav > li > a {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  h1 {
+    font-size: 70px;
+  }
+
+  h2 {
+    font-size: 50px;
+  }
+
+  h3 {
+    font-size: 28px;
+  }
+
+  header .navbar-default .navbar-nav {
+    margin-right: 20px;
+  }
 }
