@@ -341,6 +341,15 @@ header .container img {
   header .navbar-default .navbar-header .navbar-brand {
     font-size: 20px;
   }
+
+  #modal-portfolio .modal-dialog {
+    max-width: 100%;
+    margin: auto;
+  }
+
+  #modal-portfolio .modal-dialog .star-decoration {
+    font-size: 15px;
+  }
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
@@ -367,6 +376,15 @@ header .container img {
   header .navbar-default .navbar-nav > li > a {
     font-size: 20px;
   }
+
+  #modal-portfolio .modal-dialog {
+    max-width: 100%;
+    margin: auto;
+  }
+
+  #modal-portfolio .modal-dialog .star-decoration {
+    font-size: 20px;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
@@ -384,5 +402,14 @@ header .container img {
 
   header .navbar-default .navbar-nav {
     margin-right: 20px;
+  }
+
+  #modal-portfolio .modal-dialog {
+    max-width: 100%;
+    margin: auto;
+  }
+
+  #modal-portfolio .modal-dialog .star-decoration {
+    font-size: 25px;
   }
 }
