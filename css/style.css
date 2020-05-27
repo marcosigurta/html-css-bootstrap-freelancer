@@ -171,7 +171,6 @@ header .container img {
 #section-portfolio .relative:hover .layover,
 #section-portfolio .relative:hover .glyphicon {
   display: block;
-  background-color: rgba(26, 188, 156, 0.9);
 }
 
 /* Section About */
